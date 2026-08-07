@@ -33,3 +33,20 @@ class OpenDMXStudioGUI:
 
         self.status = tk.Label(root, text="DMX Offline")
         self.status.pack(side="bottom")
+
+    def arduino_event(self, event):
+        print(event)
+
+        if event == "ENCODER_RIGHT":
+            self.channel_panel.next_channel()
+
+        elif event == "ENCODER_LEFT":
+            self.channel_panel.previous_channel()
+
+        elif event == "ENCODER_PRESS":
+            self.channel_panel.toggle_edit_mode()
+
+        self.encoder_display.update_display(
+            self.channel_panel.selected_channel,
+            self.channel_panel.current_value
+        )
