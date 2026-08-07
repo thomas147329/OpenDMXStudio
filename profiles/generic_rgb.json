@@ -1,0 +1,9 @@
+{
+    "name": "Generic RGB",
+    "channels": 3,
+    "channel_names": [
+        "Red",
+        "Green",
+        "Blue"
+    ]
+}
