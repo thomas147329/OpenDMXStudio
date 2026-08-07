@@ -1,0 +1,8 @@
+{
+    "name": "PAR RGB",
+    "channels": [
+        "Red",
+        "Green",
+        "Blue"
+    ]
+}
