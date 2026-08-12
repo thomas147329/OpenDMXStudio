@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Space Dodge",
+    "description": "Dodge falling asteroids and survive as long as you can.",
+    "genre": "Arcade",
+    "icon": "🚀",
+    "path": "games/space_dodge.py"
+  },
+  {
+    "name": "Number Guess",
+    "description": "A quick number guessing game with a hidden target.",
+    "genre": "Casual",
+    "icon": "🔢",
+    "path": "games/number_guess.py"
+  }
+]
